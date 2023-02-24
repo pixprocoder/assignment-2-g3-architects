@@ -238,3 +238,34 @@ footer p {
   text-align: center;
   padding: 40px 0;
 }
+
+.hide {
+  display: none;
+}
+/* ---------------------------------- Mobile responsive -------------------------------- */
+@media only screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+  .nav-items {
+    margin-top: 5px;
+  }
+  /* hero section */
+  .hero-section {
+    /* flex-direction: column-reverse; */
+    margin-top: 0;
+    /* display: none; */
+  }
+  .hero-content {
+    width: 100%;
+  }
+  .hero-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .hero-image img {
+    margin-top: 50px;
+    width: 100%;
+    /* display: none; */
+  }
+}
