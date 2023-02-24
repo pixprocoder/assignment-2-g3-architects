@@ -90,7 +90,6 @@ nav {
 .quick-feature-container {
   display: flex;
   align-items: center;
-  /* flex-grow: 1; */
   padding: 0 50px;
   margin: 130px 0;
 }
@@ -267,5 +266,22 @@ footer p {
     margin-top: 50px;
     width: 100%;
     /* display: none; */
+  }
+  /* quick feature style */
+  .quick-feature-images {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 25px;
+  }
+  .quick-feature-container {
+    flex-direction: column-reverse;
+  }
+  .quick-feature-content {
+    margin: 0;
+    margin-bottom: 50px;
+  }
+  .quick-feature-title {
+    font-size: 25px;
+    font-weight: 500;
   }
 }
