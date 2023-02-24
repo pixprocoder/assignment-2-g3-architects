@@ -300,4 +300,14 @@ footer p {
     flex-direction: column;
     gap: 60px;
   }
+
+  /* Our sponsor style  */
+  .our-sponsor-logo-container {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 50px;
+    text-align: center;
+  }
+  .our-sponsor-logo-container img {
+    margin: 0 auto;
+  }
 }
