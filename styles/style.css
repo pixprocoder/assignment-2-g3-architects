@@ -121,6 +121,10 @@ nav {
 
 /* detail feature styles  */
 /* detail feature content  */
+.detail-feature-section {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+}
 .detail-feature-container {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -155,7 +159,9 @@ nav {
   font-weight: 400;
   color: #727272;
 }
-
+.btn-experience {
+  margin-top: 20px;
+}
 /* detail feature image  */
 .detail-feature-image img {
   width: 100%;
@@ -243,12 +249,14 @@ footer p {
 }
 /* ---------------------------------- Mobile responsive -------------------------------- */
 @media only screen and (max-width: 576px) {
+  /* navbar  */
   nav {
     flex-direction: column;
   }
   .nav-items {
     margin-top: 5px;
   }
+
   /* hero section */
   .hero-section {
     margin-top: 0;
@@ -264,6 +272,7 @@ footer p {
     margin-top: 50px;
     width: 100%;
   }
+
   /* quick feature style */
   .quick-feature-images {
     display: grid;
