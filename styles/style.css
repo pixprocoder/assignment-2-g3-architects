@@ -284,10 +284,20 @@ footer p {
     font-size: 25px;
     font-weight: 500;
   }
+
   /* Detail feature style  */
   .detail-feature-container {
     grid-template-columns: repeat(1, 1fr);
     gap: 50px;
     margin: 0 20px;
+  }
+
+  /* Our work style  */
+  .our-work-container {
+    margin: 130px 20px 0;
+  }
+  .our-work-card-container {
+    flex-direction: column;
+    gap: 60px;
   }
 }
