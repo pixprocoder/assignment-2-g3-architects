@@ -160,3 +160,49 @@ nav {
 .detail-feature-image img {
   width: 100%;
 }
+
+/* Our work section styles  */
+.our-work-container {
+  margin-top: 130px;
+}
+.our-work-content {
+  margin-bottom: 100px;
+}
+.our-work-title {
+  font-weight: 700;
+  font-size: 45px;
+}
+.our-work-description {
+  margin-top: 24px;
+  font-weight: 400;
+  color: #727272;
+}
+
+.our-work-card-container {
+  display: flex;
+  justify-content: space-around;
+  gap: 125px;
+}
+.our-work-card {
+  border: 1px solid #ff900e;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 35px;
+}
+.our-work-card > img {
+  width: 45px;
+}
+.our-work-card > h3 {
+  margin: 10px 0;
+  font-weight: 600;
+  font-size: 45px;
+  color: #424242;
+}
+.our-work-card > p {
+  font-weight: 600;
+  font-size: 18px;
+  color: #727272;
+}
