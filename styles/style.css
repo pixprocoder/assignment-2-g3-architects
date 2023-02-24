@@ -12,4 +12,33 @@
 body {
   font-family: "Work Sans", sans-serif;
   /* font-family: 'Poppins', sans-serif; */
+  max-width: 1290px;
+  margin: 0 auto;
+}
+
+/* Navbar styles  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+.logo {
+  font-weight: 700;
+  font-size: 25px;
+}
+.nav-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-items li {
+  list-style: none;
+}
+.nav-items li a {
+  text-decoration: none;
+  margin-right: 25px;
+  color: #424242;
+  font-weight: 500;
 }
